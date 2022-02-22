@@ -132,23 +132,6 @@ func init() {
 
 	ActionFunc(doGoToNextSelection).Register("GoToNextSelection", termbox.KeyCtrlK)
 	ActionFunc(doGoToPreviousSelection).Register("	doGoToPreviousSelection", termbox.KeyCtrlJ)
-
-	ActionFunc(doKonamiCommand).RegisterKeySequence(
-		"KonamiCommand",
-		keyseq.KeyList{
-			keyseq.Key{Modifier: 0, Key: termbox.KeyCtrlX, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: termbox.KeyArrowUp, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: termbox.KeyArrowUp, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: termbox.KeyArrowDown, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: termbox.KeyArrowDown, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: termbox.KeyArrowLeft, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: termbox.KeyArrowRight, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: termbox.KeyArrowLeft, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: termbox.KeyArrowRight, Ch: 0},
-			keyseq.Key{Modifier: 0, Key: 0, Ch: 'b'},
-			keyseq.Key{Modifier: 0, Key: 0, Ch: 'a'},
-		},
-	)
 }
 
 // This is a noop action
