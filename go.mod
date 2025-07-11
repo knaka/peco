@@ -1,4 +1,4 @@
-module github.com/peco/peco
+module github.com/knaka/peco
 
 go 1.12
 
