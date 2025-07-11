@@ -9,9 +9,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
+	"github.com/knaka/peco/internal/util"
+	"github.com/knaka/peco/line"
+	"github.com/knaka/peco/pipeline"
 )
 
 // NewFuzzy builds a fuzzy-finder type of filter.

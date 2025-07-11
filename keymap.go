@@ -7,7 +7,7 @@ import (
 	"time"
 	"github.com/lestrrat-go/pdebug"
 	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/internal/keyseq"
+	"github.com/knaka/peco/internal/keyseq"
 	"github.com/pkg/errors"
 )
 

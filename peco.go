@@ -19,12 +19,12 @@ import (
 
 	"github.com/google/btree"
 	"github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco/filter"
-	"github.com/peco/peco/hub"
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
-	"github.com/peco/peco/sig"
+	"github.com/knaka/peco/filter"
+	"github.com/knaka/peco/hub"
+	"github.com/knaka/peco/internal/util"
+	"github.com/knaka/peco/line"
+	"github.com/knaka/peco/pipeline"
+	"github.com/knaka/peco/sig"
 	"github.com/pkg/errors"
 )
 

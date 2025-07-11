@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
+	"github.com/knaka/peco/line"
+	"github.com/knaka/peco/pipeline"
 	"github.com/stretchr/testify/assert"
 )
 

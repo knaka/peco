@@ -7,8 +7,8 @@ import (
 	"os/exec"
 
 	pdebug "github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
+	"github.com/knaka/peco/line"
+	"github.com/knaka/peco/pipeline"
 	"github.com/pkg/errors"
 )
 

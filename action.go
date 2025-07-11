@@ -13,9 +13,9 @@ import (
 	"github.com/google/btree"
 	"github.com/lestrrat-go/pdebug"
 	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/internal/keyseq"
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
+	"github.com/knaka/peco/internal/keyseq"
+	"github.com/knaka/peco/internal/util"
+	"github.com/knaka/peco/line"
 	"github.com/pkg/errors"
 )
 

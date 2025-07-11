@@ -14,9 +14,9 @@ import (
 
 	"github.com/lestrrat-go/pdebug"
 	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/hub"
-	"github.com/peco/peco/internal/util"
-	"github.com/peco/peco/line"
+	"github.com/knaka/peco/hub"
+	"github.com/knaka/peco/internal/util"
+	"github.com/knaka/peco/line"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -228,7 +228,7 @@ func TestApplyConfig(t *testing.T) {
 	// propagated to Peco from config
 
 	// This is a placeholder test address
-	// https://github.com/peco/peco/pull/338#issuecomment-244462220
+	// https://github.com/knaka/peco/pull/338#issuecomment-244462220
 	var opts CLIOptions
 
 	opts.OptPrompt = "tpmorp>"

@@ -7,11 +7,11 @@ import (
 	"context"
 
 	"github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco/filter"
-	"github.com/peco/peco/hub"
-	"github.com/peco/peco/internal/buffer"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
+	"github.com/knaka/peco/filter"
+	"github.com/knaka/peco/hub"
+	"github.com/knaka/peco/internal/buffer"
+	"github.com/knaka/peco/line"
+	"github.com/knaka/peco/pipeline"
 )
 
 func newFilterProcessor(f filter.Filter, q string) *filterProcessor {

@@ -10,7 +10,7 @@ import (
 	"github.com/lestrrat-go/pdebug"
 	"github.com/mattn/go-runewidth"
 	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/line"
+	"github.com/knaka/peco/line"
 	"github.com/pkg/errors"
 )
 

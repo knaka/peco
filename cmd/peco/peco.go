@@ -8,8 +8,8 @@ import (
 	"context"
 
 	"github.com/lestrrat-go/pdebug"
-	"github.com/peco/peco"
-	"github.com/peco/peco/internal/util"
+	"github.com/knaka/peco"
+	"github.com/knaka/peco/internal/util"
 )
 
 func main() {

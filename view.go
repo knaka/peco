@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"context"
-	"github.com/peco/peco/hub"
+	"github.com/knaka/peco/hub"
 )
 
 type statusMsgReq interface {

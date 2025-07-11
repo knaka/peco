@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/google/btree"
-	"github.com/peco/peco/internal/util"
+	"github.com/knaka/peco/internal/util"
 )
 
 // NewRaw creates a new Raw. The `enableSep` flag tells

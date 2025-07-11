@@ -9,8 +9,8 @@ import (
 	"strconv"
 
 	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/filter"
-	"github.com/peco/peco/internal/util"
+	"github.com/knaka/peco/filter"
+	"github.com/knaka/peco/internal/util"
 	"github.com/pkg/errors"
 )
 

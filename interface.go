@@ -9,11 +9,11 @@ import (
 
 	"github.com/google/btree"
 	"github.com/nsf/termbox-go"
-	"github.com/peco/peco/filter"
-	"github.com/peco/peco/hub"
-	"github.com/peco/peco/internal/keyseq"
-	"github.com/peco/peco/line"
-	"github.com/peco/peco/pipeline"
+	"github.com/knaka/peco/filter"
+	"github.com/knaka/peco/hub"
+	"github.com/knaka/peco/internal/keyseq"
+	"github.com/knaka/peco/line"
+	"github.com/knaka/peco/pipeline"
 )
 
 const (
@@ -457,7 +457,7 @@ type Input struct {
 }
 
 // MessageHub is the interface that must be satisfied by the
-// message hub component. Unless we're in testing, github.com/peco/peco/hub.Hub
+// message hub component. Unless we're in testing, github.com/knaka/peco/hub.Hub
 // is used.
 type MessageHub interface {
 	Batch(context.Context, func(context.Context), bool)
